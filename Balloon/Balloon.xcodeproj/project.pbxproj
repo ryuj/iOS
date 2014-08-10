@@ -22,6 +22,7 @@
 		6A05A78D199666A0002DF516 /* JNViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A78A199666A0002DF516 /* JNViewController.mm */; };
 		6A05A790199666CF002DF516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A78F199666CF002DF516 /* main.m */; };
 		6A05A79419967258002DF516 /* JNBalloonView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6A05A79319967258002DF516 /* JNBalloonView.mm */; };
+		6AA8A4FE199735C000BCB1CD /* JNMickeyView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8A4FD199735C000BCB1CD /* JNMickeyView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		6A05A78F199666CF002DF516 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A05A79219967258002DF516 /* JNBalloonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNBalloonView.h; path = modules/JNBalloonView.h; sourceTree = SOURCE_ROOT; };
 		6A05A79319967258002DF516 /* JNBalloonView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JNBalloonView.mm; path = modules/JNBalloonView.mm; sourceTree = SOURCE_ROOT; };
+		6AA8A4FC199735C000BCB1CD /* JNMickeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNMickeyView.h; path = modules/JNMickeyView.h; sourceTree = SOURCE_ROOT; };
+		6AA8A4FD199735C000BCB1CD /* JNMickeyView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JNMickeyView.mm; path = modules/JNMickeyView.mm; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 				6A05A78A199666A0002DF516 /* JNViewController.mm */,
 				6A05A79219967258002DF516 /* JNBalloonView.h */,
 				6A05A79319967258002DF516 /* JNBalloonView.mm */,
+				6AA8A4FC199735C000BCB1CD /* JNMickeyView.h */,
+				6AA8A4FD199735C000BCB1CD /* JNMickeyView.mm */,
 			);
 			name = modules;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 				6A05A790199666CF002DF516 /* main.m in Sources */,
 				6A05A79419967258002DF516 /* JNBalloonView.mm in Sources */,
 				6A05A78C199666A0002DF516 /* JNAppDelegate.mm in Sources */,
+				6AA8A4FE199735C000BCB1CD /* JNMickeyView.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +477,7 @@
 				6A05A78219966609002DF516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A05A78319966609002DF516 /* Build configuration list for PBXNativeTarget "BalloonTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				6A05A78519966609002DF516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

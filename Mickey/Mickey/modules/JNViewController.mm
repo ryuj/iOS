@@ -1,5 +1,4 @@
 #import "JNViewController.h"
-<<<<<<< HEAD
 #import "JNMickeyView.h"
 
 

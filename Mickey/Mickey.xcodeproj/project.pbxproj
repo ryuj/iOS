@@ -162,11 +162,8 @@
 				6AA8A5421998EF0D00BCB1CD /* JNAppDelegate.mm */,
 				6AA8A5431998EF0D00BCB1CD /* JNViewController.h */,
 				6AA8A5441998EF0D00BCB1CD /* JNViewController.mm */,
-<<<<<<< HEAD
 				6AA8A5471998F1CA00BCB1CD /* JNMickeyView.h */,
 				6AA8A5481998F1CA00BCB1CD /* JNMickeyView.mm */,
-=======
->>>>>>> 874a8847c5fa1fb0190575ba74d533bb5f369453
 			);
 			name = modules;
 			sourceTree = "<group>";

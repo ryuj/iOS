@@ -12,15 +12,15 @@
 		6A771B941999130600A3363B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A771B931999130600A3363B /* UIKit.framework */; };
 		6A771B9A1999130600A3363B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A771B981999130600A3363B /* InfoPlist.strings */; };
 		6A771B9C1999130600A3363B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A771B9B1999130600A3363B /* main.m */; };
-		6A771BA01999130600A3363B /* JNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A771B9F1999130600A3363B /* JNAppDelegate.m */; };
 		6A771BA31999130600A3363B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A771BA11999130600A3363B /* Main.storyboard */; };
-		6A771BA61999130600A3363B /* JNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A771BA51999130600A3363B /* JNViewController.m */; };
 		6A771BA81999130600A3363B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A771BA71999130600A3363B /* Images.xcassets */; };
 		6A771BAF1999130600A3363B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A771BAE1999130600A3363B /* XCTest.framework */; };
 		6A771BB01999130600A3363B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A771B8F1999130600A3363B /* Foundation.framework */; };
 		6A771BB11999130600A3363B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A771B931999130600A3363B /* UIKit.framework */; };
 		6A771BB91999130600A3363B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A771BB71999130600A3363B /* InfoPlist.strings */; };
 		6A771BBB1999130600A3363B /* OpenGLSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A771BBA1999130600A3363B /* OpenGLSampleTests.m */; };
+		6A771BC91999138900A3363B /* JNAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6A771BC61999138900A3363B /* JNAppDelegate.mm */; };
+		6A771BCA1999138900A3363B /* JNViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6A771BC81999138900A3363B /* JNViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +42,17 @@
 		6A771B991999130600A3363B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A771B9B1999130600A3363B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A771B9D1999130600A3363B /* OpenGLSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenGLSample-Prefix.pch"; sourceTree = "<group>"; };
-		6A771B9E1999130600A3363B /* JNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNAppDelegate.h; sourceTree = "<group>"; };
-		6A771B9F1999130600A3363B /* JNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNAppDelegate.m; sourceTree = "<group>"; };
 		6A771BA21999130600A3363B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6A771BA41999130600A3363B /* JNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNViewController.h; sourceTree = "<group>"; };
-		6A771BA51999130600A3363B /* JNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNViewController.m; sourceTree = "<group>"; };
 		6A771BA71999130600A3363B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6A771BAD1999130600A3363B /* OpenGLSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A771BAE1999130600A3363B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6A771BB61999130600A3363B /* OpenGLSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenGLSampleTests-Info.plist"; sourceTree = "<group>"; };
 		6A771BB81999130600A3363B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A771BBA1999130600A3363B /* OpenGLSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLSampleTests.m; sourceTree = "<group>"; };
+		6A771BC51999138900A3363B /* JNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNAppDelegate.h; path = modules/JNAppDelegate.h; sourceTree = "<group>"; };
+		6A771BC61999138900A3363B /* JNAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JNAppDelegate.mm; path = modules/JNAppDelegate.mm; sourceTree = "<group>"; };
+		6A771BC71999138900A3363B /* JNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNViewController.h; path = modules/JNViewController.h; sourceTree = "<group>"; };
+		6A771BC81999138900A3363B /* JNViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JNViewController.mm; path = modules/JNViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,8 @@
 		6A771B951999130600A3363B /* OpenGLSample */ = {
 			isa = PBXGroup;
 			children = (
-				6A771B9E1999130600A3363B /* JNAppDelegate.h */,
-				6A771B9F1999130600A3363B /* JNAppDelegate.m */,
+				6A771BC41999137F00A3363B /* modules */,
 				6A771BA11999130600A3363B /* Main.storyboard */,
-				6A771BA41999130600A3363B /* JNViewController.h */,
-				6A771BA51999130600A3363B /* JNViewController.m */,
 				6A771BA71999130600A3363B /* Images.xcassets */,
 				6A771B961999130600A3363B /* Supporting Files */,
 			);
@@ -150,6 +147,17 @@
 				6A771BB71999130600A3363B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A771BC41999137F00A3363B /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				6A771BC51999138900A3363B /* JNAppDelegate.h */,
+				6A771BC61999138900A3363B /* JNAppDelegate.mm */,
+				6A771BC71999138900A3363B /* JNViewController.h */,
+				6A771BC81999138900A3363B /* JNViewController.mm */,
+			);
+			name = modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A771BA01999130600A3363B /* JNAppDelegate.m in Sources */,
-				6A771BA61999130600A3363B /* JNViewController.m in Sources */,
+				6A771BC91999138900A3363B /* JNAppDelegate.mm in Sources */,
+				6A771BCA1999138900A3363B /* JNViewController.mm in Sources */,
 				6A771B9C1999130600A3363B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

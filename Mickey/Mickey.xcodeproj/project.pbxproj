@@ -12,15 +12,15 @@
 		6AA8A5101998ED5200BCB1CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA8A50F1998ED5200BCB1CD /* UIKit.framework */; };
 		6AA8A5161998ED5200BCB1CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AA8A5141998ED5200BCB1CD /* InfoPlist.strings */; };
 		6AA8A5181998ED5200BCB1CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8A5171998ED5200BCB1CD /* main.m */; };
-		6AA8A51C1998ED5200BCB1CD /* JNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8A51B1998ED5200BCB1CD /* JNAppDelegate.m */; };
 		6AA8A51F1998ED5200BCB1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA8A51D1998ED5200BCB1CD /* Main.storyboard */; };
-		6AA8A5221998ED5200BCB1CD /* JNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8A5211998ED5200BCB1CD /* JNViewController.m */; };
 		6AA8A5241998ED5200BCB1CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA8A5231998ED5200BCB1CD /* Images.xcassets */; };
 		6AA8A52B1998ED5200BCB1CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA8A52A1998ED5200BCB1CD /* XCTest.framework */; };
 		6AA8A52C1998ED5200BCB1CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA8A50B1998ED5200BCB1CD /* Foundation.framework */; };
 		6AA8A52D1998ED5200BCB1CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA8A50F1998ED5200BCB1CD /* UIKit.framework */; };
 		6AA8A5351998ED5200BCB1CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AA8A5331998ED5200BCB1CD /* InfoPlist.strings */; };
 		6AA8A5371998ED5200BCB1CD /* MickeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8A5361998ED5200BCB1CD /* MickeyTests.m */; };
+		6AA8A5451998EF0D00BCB1CD /* JNAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8A5421998EF0D00BCB1CD /* JNAppDelegate.mm */; };
+		6AA8A5461998EF0D00BCB1CD /* JNViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8A5441998EF0D00BCB1CD /* JNViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +42,17 @@
 		6AA8A5151998ED5200BCB1CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6AA8A5171998ED5200BCB1CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6AA8A5191998ED5200BCB1CD /* Mickey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mickey-Prefix.pch"; sourceTree = "<group>"; };
-		6AA8A51A1998ED5200BCB1CD /* JNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNAppDelegate.h; sourceTree = "<group>"; };
-		6AA8A51B1998ED5200BCB1CD /* JNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNAppDelegate.m; sourceTree = "<group>"; };
 		6AA8A51E1998ED5200BCB1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6AA8A5201998ED5200BCB1CD /* JNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNViewController.h; sourceTree = "<group>"; };
-		6AA8A5211998ED5200BCB1CD /* JNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNViewController.m; sourceTree = "<group>"; };
 		6AA8A5231998ED5200BCB1CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6AA8A5291998ED5200BCB1CD /* MickeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MickeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA8A52A1998ED5200BCB1CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6AA8A5321998ED5200BCB1CD /* MickeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MickeyTests-Info.plist"; sourceTree = "<group>"; };
 		6AA8A5341998ED5200BCB1CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6AA8A5361998ED5200BCB1CD /* MickeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MickeyTests.m; sourceTree = "<group>"; };
+		6AA8A5411998EF0D00BCB1CD /* JNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNAppDelegate.h; path = modules/JNAppDelegate.h; sourceTree = "<group>"; };
+		6AA8A5421998EF0D00BCB1CD /* JNAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JNAppDelegate.mm; path = modules/JNAppDelegate.mm; sourceTree = "<group>"; };
+		6AA8A5431998EF0D00BCB1CD /* JNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNViewController.h; path = modules/JNViewController.h; sourceTree = "<group>"; };
+		6AA8A5441998EF0D00BCB1CD /* JNViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = JNViewController.mm; path = modules/JNViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,8 @@
 		6AA8A5111998ED5200BCB1CD /* Mickey */ = {
 			isa = PBXGroup;
 			children = (
-				6AA8A51A1998ED5200BCB1CD /* JNAppDelegate.h */,
-				6AA8A51B1998ED5200BCB1CD /* JNAppDelegate.m */,
+				6AA8A5401998EF0000BCB1CD /* modules */,
 				6AA8A51D1998ED5200BCB1CD /* Main.storyboard */,
-				6AA8A5201998ED5200BCB1CD /* JNViewController.h */,
-				6AA8A5211998ED5200BCB1CD /* JNViewController.m */,
 				6AA8A5231998ED5200BCB1CD /* Images.xcassets */,
 				6AA8A5121998ED5200BCB1CD /* Supporting Files */,
 			);
@@ -150,6 +147,17 @@
 				6AA8A5331998ED5200BCB1CD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AA8A5401998EF0000BCB1CD /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				6AA8A5411998EF0D00BCB1CD /* JNAppDelegate.h */,
+				6AA8A5421998EF0D00BCB1CD /* JNAppDelegate.mm */,
+				6AA8A5431998EF0D00BCB1CD /* JNViewController.h */,
+				6AA8A5441998EF0D00BCB1CD /* JNViewController.mm */,
+			);
+			name = modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AA8A51C1998ED5200BCB1CD /* JNAppDelegate.m in Sources */,
-				6AA8A5221998ED5200BCB1CD /* JNViewController.m in Sources */,
+				6AA8A5451998EF0D00BCB1CD /* JNAppDelegate.mm in Sources */,
+				6AA8A5461998EF0D00BCB1CD /* JNViewController.mm in Sources */,
 				6AA8A5181998ED5200BCB1CD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +389,7 @@
 				GCC_PREFIX_HEADER = "Mickey/Mickey-Prefix.pch";
 				INFOPLIST_FILE = "Mickey/Mickey-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E7E5FFFC-68DB-4352-B495-EC97B8EC704C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,6 +403,7 @@
 				GCC_PREFIX_HEADER = "Mickey/Mickey-Prefix.pch";
 				INFOPLIST_FILE = "Mickey/Mickey-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E7E5FFFC-68DB-4352-B495-EC97B8EC704C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

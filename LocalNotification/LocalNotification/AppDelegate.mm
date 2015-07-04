@@ -41,6 +41,15 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     
     NSLog(@"%@", NSStringFromSelector(_cmd));
+    
+    UIApplication *app = [UIApplication sharedApplication];
+    NSUInteger cnt = [[app scheduledLocalNotifications] count];
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSString *msg = [NSString stringWithFormat:@"予約されている個数：%lu個", cnt];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"title" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+    });
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
